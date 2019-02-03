@@ -1,0 +1,8 @@
+#Aleks Calderon
+#1.1.2019
+#gives MPG for a car
+
+miles = int(input("Enter how many miles are traveled: "))
+gallons = int(input("Enter how many gallons to fill tank: "))
+MPG = miles / gallons
+print("What a journey! Your MPG is: ", MPG)
