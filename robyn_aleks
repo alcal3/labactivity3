@@ -1,0 +1,14 @@
+#Aleks Calderon
+#1.1.2019
+#asks user for their name and only greets Robyn or Aleks with name
+
+      
+name = input("What is your name?")
+name1 = "Robyn"
+name2 = "Aleks"
+if name == name1:
+    print("Greetings," + name1)
+elif name == name2:
+    print("Greetings," + name2)
+else:
+    print("Greetings")
