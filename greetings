@@ -1,0 +1,7 @@
+#Aleks Calderon
+#1.1.2019
+#asks user for their name and greets them with their name
+
+      
+name = input("What is your name?")
+print ("Greetings," + name)
