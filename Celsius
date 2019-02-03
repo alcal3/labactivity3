@@ -1,0 +1,7 @@
+#Aleks Calderon
+#1.1.2019
+#converts fahrenheit to celsius
+
+fahrenheit = int(input("Enter your current tempature: "))
+celsius = (fahrenheit - 32)*5/9
+print("Your tempature in celsius is: ", celsius)
