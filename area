@@ -1,0 +1,8 @@
+#Aleks Calderon
+#1.1.2019
+#compute radius of a circle
+
+radius = int(input("Enter radius for your circle: "))
+area_of_circle = (radius * 3.14) * radius
+print ("Your circle is: ", area_of_circle)
+print("Your knowledge of circle is radiant!")
