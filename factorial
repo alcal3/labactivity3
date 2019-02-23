@@ -1,0 +1,10 @@
+#aleks calderon
+#2.23.2019
+#comutes factorials
+
+n = int(input("Please enter a number for fatorials:"))
+
+import math
+
+finalN = math.factorial(n)
+print(finalN)
