@@ -1,0 +1,26 @@
+#aleks calderon
+#2.28.2019
+#squares inside of squares
+
+import turtle
+
+def drawSquare(t, sz):
+    for i in range(4):
+        t.forward(sz)
+        t.left(90)
+
+wn = turtle.Screen()
+
+aleks = turtle.Turtle()
+aleks.color("blue")
+
+size = [20, 40, 60, 80, 100]
+
+for x in size:
+    drawSquare(aleks, x)
+    aleks.penup()
+    aleks.backward(10)
+    aleks.right(90)
+    aleks.forward(10)
+    aleks.left(90)
+    aleks.pendown()
